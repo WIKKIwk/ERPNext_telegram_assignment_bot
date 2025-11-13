@@ -1,0 +1,9 @@
+frappe
+erpnext_ai
+barcode_shrdc
+frepple
+metabase_integration
+erpnext_telegram_integration
+healthcare
+rfid
+erpnext

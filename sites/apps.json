@@ -1,0 +1,48 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.85.0"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "c84952169fd5f996bccddf00461ad919ab1a38a0",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "15.82.1"
+    },
+    "erpnext_ai": {
+        "is_repo": false,
+        "resolution": "not a repo",
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "rfid": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "c28fe78235eb39f687e4046dc5edb5cb01cc5872",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "1.0.0"
+    },
+    "healthcare": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "4ba6a278afd3f012a2154d805908d2f5e119686e",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "15.1.11"
+    }
+}

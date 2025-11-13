@@ -1,0 +1,23 @@
+# Python / virtualenv
+env/
+__pycache__/
+*.pyc
+
+# Bench artifacts
+logs/
+config/pids/
+config/*.pid
+sites/*/private/backups/
+sites/*/public/backups/
+
+# SQLite / data
+*.sqlite3
+apps/telegram_assignment_bot/data/
+
+# OS / editor
+.DS_Store
+*.swp
+
+# Local configs
+apps/telegram_assignment_bot/.env
+apps/telegram_assignment_bot/.env.local

@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-05 12:00:00.000000",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rfid",
+  "serial_no",
+  "item_code",
+  "reader",
+  "antenna_port",
+  "read_time",
+  "rssi",
+  "raw_payload",
+  "raddec"
+ ],
+ "fields": [
+  {
+   "fieldname": "rfid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "RFID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Serial No",
+   "options": "Serial No",
+   "read_only": 1
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item",
+   "read_only": 1
+  },
+  {
+   "fieldname": "reader",
+   "fieldtype": "Data",
+   "label": "Reader",
+   "read_only": 1
+  },
+  {
+   "fieldname": "antenna_port",
+   "fieldtype": "Int",
+   "label": "Antenna Port",
+   "read_only": 1
+  },
+  {
+   "fieldname": "read_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Read Time",
+   "reqd": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "rssi",
+   "fieldtype": "Float",
+   "label": "RSSI (dBm)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "raw_payload",
+   "fieldtype": "Long Text",
+   "label": "Raw Payload",
+   "read_only": 1
+  },
+  {
+   "fieldname": "raddec",
+   "fieldtype": "Long Text",
+   "label": "Raddec JSON",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-05 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Rfid",
+ "name": "RFID Tag Event",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 0,
+ "sort_field": "read_time",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

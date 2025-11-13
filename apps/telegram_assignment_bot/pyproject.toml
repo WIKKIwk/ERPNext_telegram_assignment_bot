@@ -1,0 +1,14 @@
+[project]
+name = "telegram-assignment-bot"
+version = "0.1.0"
+description = "Minimal Telegram bot for assigning a single sales manager per chat"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-telegram-bot[rate-limiter]>=20.7",
+    "requests>=2.31.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

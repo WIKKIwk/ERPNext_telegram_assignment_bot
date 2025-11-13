@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-05 12:00:00.000000",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "webhook_url",
+  "enabled",
+  "secret",
+  "timeout",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "webhook_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Webhook URL",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "secret",
+   "fieldtype": "Password",
+   "label": "Signing Secret"
+  },
+  {
+   "default": "10",
+   "fieldname": "timeout",
+   "fieldtype": "Int",
+   "label": "Timeout (s)"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-05 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Rfid",
+ "name": "RFID Webhook",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

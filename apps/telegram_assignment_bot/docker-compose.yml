@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  assignment_bot:
+    build: .
+    image: telegram-assignment-bot:latest
+    container_name: telegram_assignment_bot
+    env_file:
+      - .env
+    environment:
+      ASSIGNMENT_BOT_DB_PATH: /app/data/assignment.sqlite3
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
